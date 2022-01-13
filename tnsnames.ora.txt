@@ -1,0 +1,18 @@
+ipc-ora=(DESCRIPTION=
+             (ADDRESS=
+                 (PROTOCOL=IPC)
+                 (KEY=ORAIPC)
+ 
+             )
+             (CONNECT_DATA=(SID=ORA102))
+
+          )
+   ipc-gtw=(DESCRIPTION=
+              (ADDRESS=
+                  (PROTOCOL=IPC)
+                  (KEY=ORAIPC)
+
+               )
+              (CONNECT_DATA=(SID=drdahoa1))
+              (HS=)
+          )
