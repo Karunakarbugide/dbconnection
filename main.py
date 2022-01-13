@@ -57,7 +57,7 @@ try:
     conn.close()
 
 except Exception as ex:
-    logging.error('Error while  connecting to Source Database', sys.exc_info()[0])
+    logging.error('Error while  connecting to Target Database', sys.exc_info()[0])
 
 
 
